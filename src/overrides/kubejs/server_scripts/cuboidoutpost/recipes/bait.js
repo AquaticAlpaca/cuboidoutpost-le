@@ -1,6 +1,6 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
 
     // get rid of bait recipes
     e.remove({id: 'excompressum:cat_bait'})
@@ -21,6 +21,7 @@ onEvent('recipes', e => {
     e.remove({id: 'excompressum:squid_bait'})
     e.remove({id: 'excompressum:turtle_bait'})
     e.remove({id: 'excompressum:wolf_bait'})
+    
 
 })
   

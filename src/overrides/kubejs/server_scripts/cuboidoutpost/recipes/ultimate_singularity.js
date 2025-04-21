@@ -1,6 +1,6 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     e.custom({
@@ -9,9 +9,9 @@ onEvent('recipes', e => {
           "    K    ",
           "   Q R   ",
           "    G    ",
-          " M A C O ",
-          "I E   F J",
-          " N D A P ",
+          " M  C  O ",
+          "I E D F J",
+          " N  A  P ",
           "    H    ",
           "   B S   ",
           "    L    "
@@ -35,7 +35,7 @@ onEvent('recipes', e => {
           "P": { "type": "forge:nbt", "item": "extendedcrafting:singularity", "nbt": { "Id": "extendedcrafting:silver" } },
           "Q": { "type": "forge:nbt", "item": "extendedcrafting:singularity", "nbt": { "Id": "extendedcrafting:steel" } },
           "R": { "type": "forge:nbt", "item": "extendedcrafting:singularity", "nbt": { "Id": "extendedcrafting:tin" } },
-          "S": { "type": "forge:nbt", "item": "extendedcrafting:singularity", "nbt": { "Id": "extendedcrafting:uranium" } }
+          "S": { "type": "forge:nbt", "item": "extendedcrafting:singularity", "nbt": { "Id": "extendedcrafting:uranium" } },
         },
         "result": {
           "item": "extendedcrafting:ultimate_singularity"

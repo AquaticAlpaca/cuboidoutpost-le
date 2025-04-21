@@ -1,13 +1,13 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
     // remove default infinity booster card recipe
 
-    e.remove({ id: 'ae2wtlib:infinity_booster_card' })
+    e.remove({ id: 'aeinfinitybooster:infinity_card' })
 
     e.custom({
         "result": {
-            "item": "ae2wtlib:infinity_booster_card"
+            "item": "aeinfinitybooster:infinity_card"
         },
         "type": "minecraft:crafting_shaped",
         "pattern": [
@@ -20,7 +20,7 @@ onEvent('recipes', e => {
                 "item": "minecraft:ender_eye"
             },
             "R": {
-                "item": "appliedenergistics2:wireless_receiver"
+                "item": "ae2:wireless_receiver"
             },
             "S": {
                 "item": "powah:energizing_rod_spirited"

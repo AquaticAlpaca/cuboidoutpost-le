@@ -1,6 +1,8 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
+
+  e.remove({output: 'exnihilosequentia:platinum_ingot'})
 
   // recipes to "fix" platinum so it works with kubejs block and nuggets too
 
@@ -12,9 +14,9 @@ onEvent('recipes', e => {
     E: '#forge:ingots/platinum'
   })
 
-  e.shapeless('9x exnihilosequentia:ingot_platinum', ['kubejs:platinum_block'])
+  e.shapeless('9x exnihilosequentia:platinum_ingot', ['kubejs:platinum_block'])
 
-  e.shaped('exnihilosequentia:ingot_platinum', [
+  e.shaped('exnihilosequentia:platinum_ingot', [
     'EEE',
     'EEE',
     'EEE'
@@ -22,6 +24,6 @@ onEvent('recipes', e => {
     E: '#forge:nuggets/platinum'
   })
 
-  e.shapeless('9x kubejs:platinum_nugget', ['exnihilosequentia:ingot_platinum'])
+  e.shapeless('9x kubejs:platinum_nugget', ['exnihilosequentia:platinum_ingot'])
 
 })

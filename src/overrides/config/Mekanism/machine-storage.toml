@@ -67,4 +67,10 @@
 	chemicalDissolutionChamber = "160000"
 	#Base energy storage (Joules).
 	chemicalWasher = "80000"
+	#Base energy storage (Joules).
+	laserAmplifier = "5000000000"
+	#Base energy storage (Joules).
+	laserTractorBeam = "5000000000"
+	#Base energy storage (Joules).
+	dimensionalStabilizer = "40000"
 

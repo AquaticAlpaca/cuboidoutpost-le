@@ -1,6 +1,6 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
 
     const fertilizer = (item, growthModifier) => {
         e.custom({

@@ -1,32 +1,12 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
 
   e.remove({id: 'exnihilosequentia:ens_end_cake'})
 
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   // -- IRON --
   
-  // remove tinkers smelting recipes that would give
-  // early access to iron
-
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/axes'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/boots'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/bucket'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/chestplate'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/crossbow'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/helmet'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/horse_armor'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/ingot_1'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/ingot_2'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/ingot_4'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/ingot_5'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/lantern'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/leggings'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/small'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/tripwire'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/iron/weapon'})
-
   // remove minecraft recipes that would give
   // early access to iron
   e.remove({id: 'minecraft:iron_nugget_from_blasting'})
@@ -35,18 +15,6 @@ onEvent('recipes', e => {
   // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   // -- GOLD --
   
-  // remove tinkers smelting recipes that would give
-  // early access to gold
-
-  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/apple'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/boots'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/chestplate'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/clock'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/enchanted_apple'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/helmet'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/horse_armor'})
-  e.remove({id: 'tconstruct:smeltery/melting/metal/gold/leggings'})
-
   // remove minecraft recipes that would give
   // early access to gold
   e.remove({id: 'minecraft:gold_nugget_from_blasting'})
@@ -58,7 +26,7 @@ onEvent('recipes', e => {
   // remove standard unfired crucible recipe and add one in that
   // requires grout to try enforce progression by using grout
   // which requires gravel, sand and clay
-  e.remove({id: 'exnihilosequentia:ens_crucible_unfired'})
+  e.remove({id: 'exnihilosequentia:unfired_crucible'})
   e.custom({
     "type": "minecraft:crafting_shaped",
     "pattern": [
@@ -71,11 +39,11 @@ onEvent('recipes', e => {
         "item": "exnihilosequentia:porcelain_clay"
       },
       "g": {
-        "item": "tconstruct:grout"
+        "item": "cuboidmod:aggregate"
       }
     },
     "result": {
-      "item": "exnihilosequentia:crucible_unfired"
+      "item": "exnihilosequentia:unfired_crucible"
     }
   })
 

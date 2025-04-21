@@ -1,6 +1,6 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     // powah:creative_energy_cell

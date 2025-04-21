@@ -1,6 +1,6 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     e.custom({
@@ -29,7 +29,7 @@ onEvent('recipes', e => {
           "N": { "item": "cuboidmod:lead_quantum_singularity" },
           "O": { "item": "cuboidmod:uranium_quantum_singularity" },
           "P": { "item": "cuboidmod:osmium_quantum_singularity" },
-          "Q": { "item": "cuboidmod:cobalt_quantum_singularity" },
+          "Q": { "item": "cuboidmod:lapis_quantum_singularity" },
           "R": { "item": "cuboidmod:steel_quantum_singularity" },
           "S": { "item": "cuboidmod:bronze_quantum_singularity" },
           "T": { "item": "cuboidmod:electrum_quantum_singularity" },

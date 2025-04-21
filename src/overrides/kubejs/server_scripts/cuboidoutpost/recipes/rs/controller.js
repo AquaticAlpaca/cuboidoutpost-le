@@ -1,6 +1,6 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
 
   // recipes to gate RS behind AE2 quest line
 
@@ -13,8 +13,8 @@ onEvent('recipes', e => {
   ], {
     I: 'refinedstorage:quartz_enriched_iron',
     P: 'refinedstorage:advanced_processor',
-    S: 'appliedenergistics2:printed_silicon',
-    C: 'appliedenergistics2:controller'
+    S: 'ae2:printed_silicon',
+    C: 'ae2:controller'
   })
 
 })

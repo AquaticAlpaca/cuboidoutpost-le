@@ -1,3 +1,13 @@
 {
-  "bo:generate_documentation": false
+  "bo:generate_documentation": false,
+  "ma:creative_tabs": {},
+  "ma:workspace": {
+    "bo:enabled": true
+  },
+  "ma:tab": {
+    "bo:enabled": true
+  },
+  "ma:tabz": {
+    "bo:enabled": true
+  }
 }

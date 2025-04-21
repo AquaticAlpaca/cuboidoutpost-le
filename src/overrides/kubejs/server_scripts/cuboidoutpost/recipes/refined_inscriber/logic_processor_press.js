@@ -1,16 +1,16 @@
 // priority: 0
 
-onEvent('recipes', e => {
+ServerEvents.recipes(e => {
 
     e.custom({
       "type": "cuboidmod:inscribing",
       "mode": "inscribe",
       "result": {
-        "item": "appliedenergistics2:logic_processor_press"
+        "item": "ae2:logic_processor_press"
       },
       "ingredients": {
         "top": {
-          "item": "appliedenergistics2:logic_processor_press"
+          "item": "ae2:logic_processor_press"
         },
         "middle": {
           "tag": "forge:storage_blocks/iron"
