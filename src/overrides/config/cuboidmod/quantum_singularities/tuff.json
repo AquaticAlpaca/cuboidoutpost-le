@@ -3,5 +3,14 @@
   "colors": [
     "434a3d",
     "454a42"
-  ]
+  ],
+  "recipe": {
+	"identifier": "minecraft:tuff",
+	"amount": 128
+  },
+  "production": {
+	"output": "minecraft:tuff",
+	"amountMult": 0.5,
+	"workTime": 2.0
+  }
 }

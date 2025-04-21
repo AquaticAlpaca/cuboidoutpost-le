@@ -3,5 +3,14 @@
   "colors": [
     "f8f8ff",
     "ffffff"
-  ]
+  ],
+  "recipe": {
+	"identifier": "minecraft:calcite",
+	"amount": 128
+  },
+  "production": {
+	"output": "minecraft:calcite",
+	"amountMult": 0.5,
+	"workTime": 2.0
+  }
 }

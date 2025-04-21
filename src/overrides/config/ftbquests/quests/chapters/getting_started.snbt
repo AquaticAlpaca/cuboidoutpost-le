@@ -338,7 +338,14 @@
 			subtitle: "It'll be worth it in the end!"
 			tasks: [{
 				id: "0498FA94D7990363"
-				item: "cuboidmod:notsogudium_quantum_singularity"
+				item: {
+					Count: 1b
+					id: "cuboidmod:quantum_singularity"
+					tag: {
+						quantumId: "cuboidmod:notsogudium"
+					}
+				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "This could take a while"
@@ -423,7 +430,14 @@
 			subtitle: "A powerful source"
 			tasks: [{
 				id: "689E4BE0983420E4"
-				item: "cuboidmod:coal_quantum_singularity"
+				item: {
+					Count: 1b
+					id: "cuboidmod:quantum_singularity"
+					tag: {
+						quantumId: "cuboidmod:coal"
+					}
+				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "You're going to need this"
@@ -436,7 +450,14 @@
 			optional: true
 			tasks: [{
 				id: "0F280E7B6A8C04E1"
-				item: "cuboidmod:silica_dust_quantum_singularity"
+				item: {
+					Count: 1b
+					id: "cuboidmod:quantum_singularity"
+					tag: {
+						quantumId: "cuboidmod:silica_dust"
+					}
+				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 6.5d

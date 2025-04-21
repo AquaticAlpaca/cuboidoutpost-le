@@ -3,5 +3,14 @@
   "colors": [
     "a83436",
     "d73b3e"
-  ]
+  ],
+  "recipe": {
+	"identifier": "quark:jasper",
+	"amount": 128
+  },
+  "production": {
+	"output": "quark:jasper",
+	"amountMult": 0.5,
+	"workTime": 2.0
+  }
 }
