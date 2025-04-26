@@ -13,7 +13,7 @@ ServerEvents.recipes(e => {
           "item": "ae2:silicon_press"
         },
         "middle": {
-          "tag": "ae2:silicon"
+          "tag": "forge:silicon"
         }
       },
       "work_ticks": 40,
