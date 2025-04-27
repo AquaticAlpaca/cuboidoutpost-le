@@ -13,7 +13,7 @@ ServerEvents.recipes(e => {
           "item": "ae2:calculation_processor_press"
         },
         "middle": {
-          "item": "ae2:purified_certus_quartz_crystal"
+          "item": "ae2:certus_quartz_crystal"
         }
       },
       "work_ticks": 40,
