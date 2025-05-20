@@ -27,7 +27,7 @@ ServerEvents.recipes(e => {
         "B": { "item": "extendedcrafting:the_ultimate_block" },
         "-": { "item": "extendedcrafting:the_ultimate_ingot" },
         "*": { "item": "extendedcrafting:ultimate_singularity" },
-        "@": { "item": "cuboidmod:steel_quantum_singularity" }
+        "@": Item.of('cuboidmod:quantum_singularity', '{quantumId:"cuboidmod:steel"}').strongNBT()
       },
       "result": {
         "item": "immersiveengineering:capacitor_creative"

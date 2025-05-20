@@ -24,7 +24,7 @@ ServerEvents.recipes(e => {
         "B": { "item": "extendedcrafting:the_ultimate_block" },
         "-": { "item": "extendedcrafting:the_ultimate_ingot" },
         "*": { "item": "extendedcrafting:ultimate_singularity" },
-        "@": { "item": "cuboidmod:uraninite_quantum_singularity" }
+        "@": Item.of('cuboidmod:quantum_singularity', '{quantumId:"cuboidmod:uraninite"}').strongNBT()
       },
       "result": {
         "item": "powah:energy_cell_creative"

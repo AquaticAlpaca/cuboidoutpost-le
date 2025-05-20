@@ -20,7 +20,7 @@ ServerEvents.recipes(e => {
       "key": {
         "E": { "item": "storagedrawers:emerald_storage_upgrade" },
         "-": { "item": "extendedcrafting:the_ultimate_ingot" },
-        "@": { "item": "cuboidmod:emerald_quantum_singularity" }
+        "@": Item.of('cuboidmod:quantum_singularity', '{quantumId:"cuboidmod:emerald"}').strongNBT()
       },
       "result": {
         "item": "storagedrawers:creative_storage_upgrade"
@@ -46,7 +46,7 @@ ServerEvents.recipes(e => {
         "E": { "item": "storagedrawers:creative_storage_upgrade" },
         "-": { "item": "extendedcrafting:the_ultimate_ingot" },
         "*": { "item": "extendedcrafting:ultimate_singularity" },
-        "@": { "item": "cuboidmod:emerald_quantum_singularity" }
+        "@": Item.of('cuboidmod:quantum_singularity', '{quantumId:"cuboidmod:emerald"}').strongNBT()
       },
       "result": {
         "item": "storagedrawers:creative_vending_upgrade"
